@@ -14,8 +14,14 @@
 // console.log(filteredAveragePair);
 
 function averagePair (param1, param2) {
-    console.log(param1);
+    let result = 0;
+    
+    for (let i = 0; i < param1.length; i++) {
+        arr += param1[i]
+    }
+    console.log(arr);
     console.log(param2);
+
 }
 
 averagePair([2,5,7,8,9,12], "ini param2")
